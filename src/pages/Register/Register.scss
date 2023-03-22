@@ -1,0 +1,131 @@
+.register {
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.register__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+
+  img {
+    height: 25px;
+    object-fit: contain;
+  }
+
+  h1 {
+    color: #213f7d;
+    font-weight: 900;
+  }
+}
+
+.register__body {
+  display: flex;
+  justify-content: center;
+  gap: 15vw;
+  margin-top: 100px;
+
+  .register__body__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+    margin-top: -70px;
+    margin-right: 50px;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #213f7d;
+      letter-spacing: -0.04em;
+    }
+
+    h4 {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 27px;
+      color: #545f7d;
+      margin-bottom: 50px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        background: #ffffff;
+        border: 2px solid rgba(84, 95, 125, 0.15);
+        border-radius: 5px;
+        outline: none;
+        width: 100%;
+        padding: 20px;
+
+        &::placeholder {
+          color: #545f7d;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          opacity: 0.6;
+        }
+      }
+
+      .register__body__form__password__input {
+        position: relative;
+
+        span {
+          position: absolute;
+          right: 5px;
+          padding: 20px;
+
+          p {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #39cdcc;
+            cursor: pointer;
+          }
+        }
+      }
+
+      span {
+        margin-bottom: 20px;
+        p {
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+
+          color: #39cdcc;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          cursor: pointer;
+        }
+      }
+
+      button {
+        background: #39cdcc;
+        border-radius: 8px;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 15px 20px;
+        color: white;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}
