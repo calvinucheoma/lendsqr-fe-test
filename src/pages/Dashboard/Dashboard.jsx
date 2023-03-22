@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from '../../components/Main/Main';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Topbar from '../../components/Topbar/Topbar';
 import './Dashboard.scss';
@@ -6,8 +7,14 @@ import './Dashboard.scss';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <Topbar />
-      <Sidebar />
+      <div className="dashboard__topbar">
+        <Topbar />
+      </div>
+
+      <div className="dashboard__body">
+        <Sidebar />
+        <Main />
+      </div>
     </div>
   );
 };

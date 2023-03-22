@@ -20,125 +20,118 @@ import { AiFillBank } from 'react-icons/ai';
 import { GiCircularSaw, GiDividedSpiral } from 'react-icons/gi';
 import { VscGraph } from 'react-icons/vsc';
 import { RiCalendarTodoFill } from 'react-icons/ri';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
-import {} from 'react-icons/';
 
 export const sidebarData = [
   {
     id: 1,
-    icon: BsFillPeopleFill,
+    Icon: BsFillPeopleFill,
     name: 'Users',
   },
   {
     id: 2,
-    icon: MdGroups,
+    Icon: MdGroups,
     name: 'Guarantors',
   },
   {
     id: 3,
-    icon: TbCurrencyNaira,
+    Icon: TbCurrencyNaira,
     name: 'Loans',
   },
   {
     id: 4,
-    icon: FaRegHandshake,
+    Icon: FaRegHandshake,
     name: 'Decision Models',
   },
   {
     id: 5,
-    icon: FaPiggyBank,
+    Icon: FaPiggyBank,
     name: 'Savings',
   },
   {
     id: 6,
-    icon: FaHandHoldingUsd,
+    Icon: FaHandHoldingUsd,
     name: 'Loan Requests',
   },
   {
     id: 7,
-    icon: BsFillPersonCheckFill,
+    Icon: BsFillPersonCheckFill,
     name: 'Whitelist',
   },
   {
     id: 8,
-    icon: BsFillPersonXFill,
+    Icon: BsFillPersonXFill,
     name: 'Karma',
   },
   {
     id: 9,
-    icon: FaBriefcase,
+    Icon: FaBriefcase,
     name: 'Organization',
   },
   {
     id: 10,
-    icon: FaHandHoldingUsd,
+    Icon: FaHandHoldingUsd,
     name: 'Loan Products',
   },
   {
     id: 11,
-    icon: AiFillBank,
+    Icon: AiFillBank,
     name: 'Savings Products',
   },
   {
     id: 12,
-    icon: FaCoins,
+    Icon: FaCoins,
     name: 'Fees and Charges',
   },
   {
     id: 13,
-    icon: BsPhoneFlip,
+    Icon: BsPhoneFlip,
     name: 'Transactions',
   },
   {
     id: 14,
-    icon: GiCircularSaw,
+    Icon: GiCircularSaw,
     name: 'Services',
   },
   {
     id: 15,
-    icon: BsPersonGear,
+    Icon: BsPersonGear,
     name: 'Service Account',
   },
 
   {
     id: 16,
-    icon: FaScroll,
+    Icon: FaScroll,
     name: 'Settlements',
   },
 
   {
     id: 17,
-    icon: VscGraph,
+    Icon: VscGraph,
     name: 'Reports',
   },
   {
     id: 18,
-    icon: MdOutlineTune,
+    Icon: MdOutlineTune,
     name: 'Preferences',
   },
   {
     id: 19,
-    icon: GiDividedSpiral,
+    Icon: GiDividedSpiral,
     name: 'Fees and Prices',
   },
   {
     id: 20,
-    icon: RiCalendarTodoFill,
+    Icon: RiCalendarTodoFill,
     name: 'Audit Logs',
   },
   {
     id: 21,
-    icon: FaHome,
+    Icon: FaHome,
     name: 'Dashboard',
   },
   {
     id: 22,
-    icon: FaBriefcase,
+    Icon: FaBriefcase,
     name: 'Switch Organization',
   },
 ];
