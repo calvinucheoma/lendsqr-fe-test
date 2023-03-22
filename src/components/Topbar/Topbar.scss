@@ -1,0 +1,110 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  .topbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 0.2;
+
+    img {
+      height: 25px;
+      object-fit: contain;
+    }
+
+    h1 {
+      color: #213f7d;
+      font-weight: 900;
+    }
+  }
+
+  .topbar__searchbar {
+    flex: 0.35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #213f7d;
+    border-radius: 8px;
+
+    input {
+      flex: 1;
+      border: none;
+      //   padding: 10px;
+      outline: none;
+      margin-right: 10px;
+      padding: 8px 20px;
+
+      &::placeholder {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #545f7d;
+        opacity: 0.7;
+      }
+    }
+
+    span {
+      height: 100%;
+      padding: 7px;
+      background-color: #39cdcc;
+      border: none;
+      border-radius: 0 8px 8px 0;
+
+      .MuiSvgIcon-root {
+        color: white;
+        font-size: 27px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .topbar__options {
+    // flex: 0.5;
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    gap: 20px;
+
+    h5 {
+      text-decoration: underline;
+      color: #213f7d;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      cursor: pointer;
+    }
+
+    .MuiSvgIcon-root {
+      cursor: pointer;
+    }
+
+    .topbar__options__userProfile {
+      display: flex;
+      align-items: center;
+      //   justify-content: space-between;
+      //   gap: 10px;
+
+      .topbar__options__userProfile__dropdown {
+        button {
+          p {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #213f7d;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
