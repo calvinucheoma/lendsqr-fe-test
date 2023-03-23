@@ -1,5 +1,5 @@
 .sidebar {
-  flex: 0.15;
+  flex: 0.2;
   padding: 30px;
   position: sticky;
   height: calc(80vh);
@@ -56,39 +56,36 @@
     }
 
     .sidebar__list__option {
-      a {
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        cursor: pointer;
-        padding: 7px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      padding: 7px;
 
-        &:hover {
-          background-color: rgba(57, 205, 204, 0.3);
-        }
+      &:hover {
+        background-color: rgba(57, 205, 204, 0.3);
+      }
 
-        &.active {
-          background-color: rgba(57, 205, 204, 0.3);
-          border-left: 4px solid #39cdcc;
-
-          p {
-            font-weight: 700;
-          }
-        }
-
-        i {
-          color: #213f7d;
-        }
+      &.active {
+        background-color: rgba(57, 205, 204, 0.3);
+        border-left: 4px solid #39cdcc;
 
         p {
-          font-family: 'Work Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 19px;
-          color: #213f7d;
+          font-weight: 700;
         }
+      }
+
+      i {
+        color: #213f7d;
+      }
+
+      p {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #213f7d;
       }
     }
 

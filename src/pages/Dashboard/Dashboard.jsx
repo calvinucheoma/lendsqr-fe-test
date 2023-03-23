@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from '../../components/Main/Main';
+import { Outlet } from 'react-router-dom';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Topbar from '../../components/Topbar/Topbar';
 import './Dashboard.scss';
@@ -13,7 +13,9 @@ const Dashboard = () => {
 
       <div className="dashboard__body">
         <Sidebar />
-        <Main />
+        <div className="dashboard__outlet">
+          <Outlet />
+        </div>
       </div>
     </div>
   );
